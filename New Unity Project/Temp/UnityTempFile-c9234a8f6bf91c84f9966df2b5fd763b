@@ -1,0 +1,224 @@
+-debug
+-target:library
+-nowarn:0169
+-langversion:4
+-out:Temp/Assembly-CSharp.dll
+-unsafe
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll"
+-r:Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll"
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_6_OR_NEWER
+-define:UNITY_5_6_2
+-define:UNITY_5_6
+-define:UNITY_5
+-define:UNITY_ANALYTICS
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_DUCK_TYPING
+-define:ENABLE_GENERICS
+-define:ENABLE_PVR_GI
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_RUNTIME_NAVMESH_BUILDING
+-define:ENABLE_SPRITERENDERER_FLIPPING
+-define:ENABLE_SPRITES
+-define:ENABLE_TERRAIN
+-define:ENABLE_RAKNET
+-define:ENABLE_UNET
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES_COLLAB
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:ENABLE_NATIVE_ARRAY
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:PLATFORM_SUPPORTS_MONO
+-define:RENDER_SOFTWARE_CURSOR
+-define:INCLUDE_PUBNUB
+-define:ENABLE_PLAYMODE_TESTS_RUNNER
+-define:ENABLE_SCRIPTING_NEW_CSHARP_COMPILER
+-define:ENABLE_VIDEO
+-define:UNITY_STANDALONE_WIN
+-define:UNITY_STANDALONE
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_MOVIES
+-define:ENABLE_NETWORK
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_EVENT_QUEUE
+-define:ENABLE_CLUSTERINPUT
+-define:ENABLE_VR
+-define:ENABLE_WEBSOCKET_HOST
+-define:ENABLE_MONO
+-define:NET_2_0_SUBSET
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_WIN
+-define:ENABLE_NATIVE_ARRAY_CHECKS
+-define:UNITY_TEAM_LICENSE
+-define:ENABLE_VSTU
+"Assets/GMG Unity Kit/3rd Party/AdvancedInspector/Examples/CSharp/AIExample0_UnityAttributes.cs"
+"Assets/GMG Unity Kit/3rd Party/AdvancedInspector/Examples/CSharp/AIExample10_ReadOnly.cs"
+"Assets/GMG Unity Kit/3rd Party/AdvancedInspector/Examples/CSharp/AIExample11_ReadOnlyDynamic.cs"
+"Assets/GMG Unity Kit/3rd Party/AdvancedInspector/Examples/CSharp/AIExample12_Group.cs"
+"Assets/GMG Unity Kit/3rd Party/AdvancedInspector/Examples/CSharp/AIExample13_Expandable.cs"
+"Assets/GMG Unity Kit/3rd Party/AdvancedInspector/Examples/CSharp/AIExample14_Background.cs"
+"Assets/GMG Unity Kit/3rd Party/AdvancedInspector/Examples/CSharp/AIExample15_DontAllowSceneObject.cs"
+"Assets/GMG Unity Kit/3rd Party/AdvancedInspector/Examples/CSharp/AIExample16_Help.cs"
+"Assets/GMG Unity Kit/3rd Party/AdvancedInspector/Examples/CSharp/AIExample17_HelpDynamic.cs"
+"Assets/GMG Unity Kit/3rd Party/AdvancedInspector/Examples/CSharp/AIExample18_TextField.cs"
+"Assets/GMG Unity Kit/3rd Party/AdvancedInspector/Examples/CSharp/AIExample19_Restrict.cs"
+"Assets/GMG Unity Kit/3rd Party/AdvancedInspector/Examples/CSharp/AIExample1_AdvancedInspector.cs"
+"Assets/GMG Unity Kit/3rd Party/AdvancedInspector/Examples/CSharp/AIExample20_RangeValue.cs"
+"Assets/GMG Unity Kit/3rd Party/AdvancedInspector/Examples/CSharp/AIExample21_Bypass.cs"
+"Assets/GMG Unity Kit/3rd Party/AdvancedInspector/Examples/CSharp/AIExample22_DisplayAsParent.cs"
+"Assets/GMG Unity Kit/3rd Party/AdvancedInspector/Examples/CSharp/AIExample23_Space.cs"
+"Assets/GMG Unity Kit/3rd Party/AdvancedInspector/Examples/CSharp/AIExample24_Tabs.cs"
+"Assets/GMG Unity Kit/3rd Party/AdvancedInspector/Examples/CSharp/AIExample25_Style.cs"
+"Assets/GMG Unity Kit/3rd Party/AdvancedInspector/Examples/CSharp/AIExample26_Toolbar.cs"
+"Assets/GMG Unity Kit/3rd Party/AdvancedInspector/Examples/CSharp/AIExample27_CreateDerived.cs"
+"Assets/GMG Unity Kit/3rd Party/AdvancedInspector/Examples/CSharp/AIExample28_Preview.cs"
+"Assets/GMG Unity Kit/3rd Party/AdvancedInspector/Examples/CSharp/AIExample29_RuntimeResolve.cs"
+"Assets/GMG Unity Kit/3rd Party/AdvancedInspector/Examples/CSharp/AIExample2_Inspect.cs"
+"Assets/GMG Unity Kit/3rd Party/AdvancedInspector/Examples/CSharp/AIExample30_RuntimeResolvedDynamic.cs"
+"Assets/GMG Unity Kit/3rd Party/AdvancedInspector/Examples/CSharp/AIExample31_Range.cs"
+"Assets/GMG Unity Kit/3rd Party/AdvancedInspector/Examples/CSharp/AIExample32_Dictionary.cs"
+"Assets/GMG Unity Kit/3rd Party/AdvancedInspector/Examples/CSharp/AIExample33_Title.cs"
+"Assets/GMG Unity Kit/3rd Party/AdvancedInspector/Examples/CSharp/AIExample34_TitleDynamic.cs"
+"Assets/GMG Unity Kit/3rd Party/AdvancedInspector/Examples/CSharp/AIExample35_ToString.cs"
+"Assets/GMG Unity Kit/3rd Party/AdvancedInspector/Examples/CSharp/AIExample36_NoPicker.cs"
+"Assets/GMG Unity Kit/3rd Party/AdvancedInspector/Examples/CSharp/AIExample37_UnityEvent.cs"
+"Assets/GMG Unity Kit/3rd Party/AdvancedInspector/Examples/CSharp/AIExample38_Constructor.cs"
+"Assets/GMG Unity Kit/3rd Party/AdvancedInspector/Examples/CSharp/AIExample39_DynamicStatic.cs"
+"Assets/GMG Unity Kit/3rd Party/AdvancedInspector/Examples/CSharp/AIExample3_InspectDynamic.cs"
+"Assets/GMG Unity Kit/3rd Party/AdvancedInspector/Examples/CSharp/AIExample40_PropertyAttribute.cs"
+"Assets/GMG Unity Kit/3rd Party/AdvancedInspector/Examples/CSharp/AIExample41_IDataChanged.cs"
+"Assets/GMG Unity Kit/3rd Party/AdvancedInspector/Examples/CSharp/AIExample42_FieldAttribute.cs"
+"Assets/GMG Unity Kit/3rd Party/AdvancedInspector/Examples/CSharp/AIExample43_AudioVU.cs"
+"Assets/GMG Unity Kit/3rd Party/AdvancedInspector/Examples/CSharp/AIExample44_IInspect.cs"
+"Assets/GMG Unity Kit/3rd Party/AdvancedInspector/Examples/CSharp/AIExample45_Menu.cs"
+"Assets/GMG Unity Kit/3rd Party/AdvancedInspector/Examples/CSharp/AIExample46_TabsDynamic.cs"
+"Assets/GMG Unity Kit/3rd Party/AdvancedInspector/Examples/CSharp/AIExample4_InspectLevel.cs"
+"Assets/GMG Unity Kit/3rd Party/AdvancedInspector/Examples/CSharp/AIExample5_Descriptor.cs"
+"Assets/GMG Unity Kit/3rd Party/AdvancedInspector/Examples/CSharp/AIExample6_DescriptorDynamic.cs"
+"Assets/GMG Unity Kit/3rd Party/AdvancedInspector/Examples/CSharp/AIExample7_Collection.cs"
+"Assets/GMG Unity Kit/3rd Party/AdvancedInspector/Examples/CSharp/AIExample8_Enum.cs"
+"Assets/GMG Unity Kit/3rd Party/AdvancedInspector/Examples/CSharp/AIExample9_Method.cs"
+"Assets/GMG Unity Kit/3rd Party/AdvancedInspector/Examples/CSharp/AIExample_StateMachineBehaviour.cs"
+"Assets/GMG Unity Kit/3rd Party/AdvancedInspector/Examples/CSharp/CreateDerived/AIExample_BaseClass.cs"
+"Assets/GMG Unity Kit/3rd Party/AdvancedInspector/Examples/CSharp/CreateDerived/AIExample_DerivedClassA.cs"
+"Assets/GMG Unity Kit/3rd Party/AdvancedInspector/Examples/CSharp/CreateDerived/AIExample_DerivedClassB.cs"
+"Assets/GMG Unity Kit/3rd Party/AdvancedInspector/Examples/CSharp/CreateDerived/AIExample_DerivedClassC.cs"
+"Assets/GMG Unity Kit/3rd Party/AdvancedInspector/Examples/CSharp/CreateDerived/DecalDetection.cs"
+"Assets/GMG Unity Kit/3rd Party/AdvancedInspector/Examples/CSharp/FieldAttributeExample.cs"
+"Assets/GMG Unity Kit/3rd Party/AdvancedInspector/Examples/CSharp/PropertyAttributeExample.cs"
+"Assets/GMG Unity Kit/3rd Party/AdvancedInspector/Examples/CSharp/SoundButton.cs"
+"Assets/GMG Unity Kit/3rd Party/CreativeSpore/SuperTilemapEditor/Extra/Tileset - Samples/Kenneys - Rogue Like/RogueLikeMapGenerator.cs"
+"Assets/GMG Unity Kit/3rd Party/CreativeSpore/SuperTilemapEditor/Scripts/Data/ParameterContainer.cs"
+"Assets/GMG Unity Kit/3rd Party/CreativeSpore/SuperTilemapEditor/Scripts/Tilemap/Brush/A2X2Brush.cs"
+"Assets/GMG Unity Kit/3rd Party/CreativeSpore/SuperTilemapEditor/Scripts/Tilemap/Brush/AnimBrush.cs"
+"Assets/GMG Unity Kit/3rd Party/CreativeSpore/SuperTilemapEditor/Scripts/Tilemap/Brush/BrushBehaviour.cs"
+"Assets/GMG Unity Kit/3rd Party/CreativeSpore/SuperTilemapEditor/Scripts/Tilemap/Brush/BrushUtil.cs"
+"Assets/GMG Unity Kit/3rd Party/CreativeSpore/SuperTilemapEditor/Scripts/Tilemap/Brush/CarpetBrush.cs"
+"Assets/GMG Unity Kit/3rd Party/CreativeSpore/SuperTilemapEditor/Scripts/Tilemap/Brush/IBrush.cs"
+"Assets/GMG Unity Kit/3rd Party/CreativeSpore/SuperTilemapEditor/Scripts/Tilemap/Brush/RandomBrush.cs"
+"Assets/GMG Unity Kit/3rd Party/CreativeSpore/SuperTilemapEditor/Scripts/Tilemap/Brush/RoadBrush.cs"
+"Assets/GMG Unity Kit/3rd Party/CreativeSpore/SuperTilemapEditor/Scripts/Tilemap/Brush/TilesetBrush.cs"
+"Assets/GMG Unity Kit/3rd Party/CreativeSpore/SuperTilemapEditor/Scripts/Tilemap/EditorGlobalSettings.cs"
+"Assets/GMG Unity Kit/3rd Party/CreativeSpore/SuperTilemapEditor/Scripts/Tilemap/SortingLayerAttribute.cs"
+"Assets/GMG Unity Kit/3rd Party/CreativeSpore/SuperTilemapEditor/Scripts/Tilemap/TileObjMesh.cs"
+"Assets/GMG Unity Kit/3rd Party/CreativeSpore/SuperTilemapEditor/Scripts/Tilemap/TileObjectBehaviour.cs"
+"Assets/GMG Unity Kit/3rd Party/CreativeSpore/SuperTilemapEditor/Scripts/Tilemap/Tilemap.cs"
+"Assets/GMG Unity Kit/3rd Party/CreativeSpore/SuperTilemapEditor/Scripts/Tilemap/TilemapChunk.cs"
+"Assets/GMG Unity Kit/3rd Party/CreativeSpore/SuperTilemapEditor/Scripts/Tilemap/TilemapChunk_Collider.cs"
+"Assets/GMG Unity Kit/3rd Party/CreativeSpore/SuperTilemapEditor/Scripts/Tilemap/TilemapChunk_Renderer.cs"
+"Assets/GMG Unity Kit/3rd Party/CreativeSpore/SuperTilemapEditor/Scripts/Tilemap/TilemapChunk_TileObjFactory.cs"
+"Assets/GMG Unity Kit/3rd Party/CreativeSpore/SuperTilemapEditor/Scripts/Tilemap/TilemapGroup.cs"
+"Assets/GMG Unity Kit/3rd Party/CreativeSpore/SuperTilemapEditor/Scripts/Tilemap/Tileset.cs"
+"Assets/GMG Unity Kit/3rd Party/CreativeSpore/SuperTilemapEditor/Scripts/Utils/EditorCompatibilityUtils.cs"
+"Assets/GMG Unity Kit/3rd Party/CreativeSpore/SuperTilemapEditor/Scripts/Utils/EditorUtils.cs"
+"Assets/GMG Unity Kit/3rd Party/CreativeSpore/SuperTilemapEditor/Scripts/Utils/GizmosEx.cs"
+"Assets/GMG Unity Kit/3rd Party/CreativeSpore/SuperTilemapEditor/Scripts/Utils/HandlesEx.cs"
+"Assets/GMG Unity Kit/3rd Party/CreativeSpore/SuperTilemapEditor/Scripts/Utils/TilemapDrawingUtils.cs"
+"Assets/GMG Unity Kit/3rd Party/CreativeSpore/SuperTilemapEditor/Scripts/Utils/TilemapUtils.cs"
+"Assets/GMG Unity Kit/Scripts/Activation/Activatable.cs"
+"Assets/GMG Unity Kit/Scripts/Activation/ActivateOnInput.cs"
+"Assets/GMG Unity Kit/Scripts/Activation/OnActivationChangeScene.cs"
+"Assets/GMG Unity Kit/Scripts/Activation/OnActivationChangeSprite.cs"
+"Assets/GMG Unity Kit/Scripts/Activation/OnActivationKillSelf.cs"
+"Assets/GMG Unity Kit/Scripts/Activation/OnActivationPlaySound.cs"
+"Assets/GMG Unity Kit/Scripts/Activation/OnActivationToggleCollider.cs"
+"Assets/GMG Unity Kit/Scripts/Activation/OnDeactivationChangeSprite.cs"
+"Assets/GMG Unity Kit/Scripts/Activation/OnDeactivationPlaySound.cs"
+"Assets/GMG Unity Kit/Scripts/Activation/OnDeactivationToggleCollider.cs"
+"Assets/GMG Unity Kit/Scripts/Animation/SidescrollerAnimManager.cs"
+"Assets/GMG Unity Kit/Scripts/Animation/TopDownAnimManager.cs"
+"Assets/GMG Unity Kit/Scripts/Camera/CameraFollow.cs"
+"Assets/GMG Unity Kit/Scripts/Combat/SidescrollerShootProjectile.cs"
+"Assets/GMG Unity Kit/Scripts/Combat/TopDownShootProjectile.cs"
+"Assets/GMG Unity Kit/Scripts/GameManager/DataManager.cs"
+"Assets/GMG Unity Kit/Scripts/GameManager/DialogueManager.cs"
+"Assets/GMG Unity Kit/Scripts/GameManager/GameManager.cs"
+"Assets/GMG Unity Kit/Scripts/GameManager/InputManager.cs"
+"Assets/GMG Unity Kit/Scripts/GameManager/Inventory.cs"
+"Assets/GMG Unity Kit/Scripts/Health/DamageOnCollisionTag.cs"
+"Assets/GMG Unity Kit/Scripts/Health/DamageSelfOnCollisionTag.cs"
+"Assets/GMG Unity Kit/Scripts/Health/HealthManager.cs"
+"Assets/GMG Unity Kit/Scripts/Health/OnPlayerDeathLoadScene.cs"
+"Assets/GMG Unity Kit/Scripts/Health/OnPlayerDeathReloadScene.cs"
+"Assets/GMG Unity Kit/Scripts/Health/UpdateHealthBarUIOnChange.cs"
+"Assets/GMG Unity Kit/Scripts/Motion/MoveBackAndForth.cs"
+"Assets/GMG Unity Kit/Scripts/Motion/MoveInCirclePattern.cs"
+"Assets/GMG Unity Kit/Scripts/Motion/MoveUpAndDown.cs"
+"Assets/GMG Unity Kit/Scripts/Movement/SideScroller/SideScrollerCrouch.cs"
+"Assets/GMG Unity Kit/Scripts/Movement/SideScroller/SideScrollerJump.cs"
+"Assets/GMG Unity Kit/Scripts/Movement/SideScroller/SideScrollerRun.cs"
+"Assets/GMG Unity Kit/Scripts/Movement/TopDown/TopDownRun.cs"
+"Assets/GMG Unity Kit/Scripts/Persistence/DontDestroyGameObjectOnSceneLoad.cs"
+"Assets/GMG Unity Kit/Scripts/RemoveSelf/KillSelfAfterCollideWithTag.cs"
+"Assets/GMG Unity Kit/Scripts/RemoveSelf/KillSelfAfterCollision.cs"
+"Assets/GMG Unity Kit/Scripts/RemoveSelf/KillSelfAfterTime.cs"
+"Assets/GMG Unity Kit/Scripts/RemoveSelf/KillSelfIfLeaveCamera.cs"
+"Assets/GMG Unity Kit/Scripts/RemoveSelf/KillSelfIfOutOfBounds.cs"
+"Assets/GMG Unity Kit/Scripts/Scene/ReloadSceneOnCollision.cs"
+"Assets/GMG Unity Kit/Scripts/Scene/ReloadSceneOnCollisionWithTag.cs"
+"Assets/GMG Unity Kit/Scripts/Scene/SwitchSceneOnCollision.cs"
+"Assets/GMG Unity Kit/Scripts/Scene/SwitchSceneOnCollisionWithTag.cs"
+"Assets/GMG Unity Kit/Scripts/Sound/PlaySoundOnSceneLoad.cs"
+"Assets/GMG Unity Kit/Scripts/Spawn/SpawnEveryXSeconds.cs"
+-r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\System.Runtime.Serialization.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\System.Xml.Linq.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\UnityScript.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\UnityScript.Lang.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\Boo.Lang.dll"
+-sdk:unity
